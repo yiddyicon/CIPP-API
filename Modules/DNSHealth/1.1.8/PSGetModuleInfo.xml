@@ -7,13 +7,13 @@
     </TN>
     <MS>
       <S N="Name">DNSHealth</S>
-      <S N="Version">1.1.7</S>
+      <S N="Version">1.1.8</S>
       <S N="Type">Module</S>
       <S N="Description">CIPP DNS Health Check Module</S>
       <S N="Author">John Duprey</S>
       <S N="CompanyName">johnduprey</S>
       <S N="Copyright">2023 John Duprey</S>
-      <DT N="PublishedDate">2026-05-08T13:48:38-04:00</DT>
+      <DT N="PublishedDate">2026-05-08T15:46:09-04:00</DT>
       <Nil N="InstalledDate" />
       <Nil N="UpdatedDate" />
       <Nil N="LicenseUri" />
@@ -51,6 +51,7 @@
                 <S>Read-MtaStsPolicy</S>
                 <S>Add-MailProvider</S>
                 <S>Get-MailProvider</S>
+                <S>Read-AutoDiscoverRecord</S>
                 <S>Read-DkimRecord</S>
                 <S>Read-MtaStsRecord</S>
                 <S>Read-MXRecord</S>
@@ -84,6 +85,7 @@
                 <S>Read-MtaStsPolicy</S>
                 <S>Add-MailProvider</S>
                 <S>Get-MailProvider</S>
+                <S>Read-AutoDiscoverRecord</S>
                 <S>Read-DkimRecord</S>
                 <S>Read-MtaStsRecord</S>
                 <S>Read-MXRecord</S>
@@ -127,15 +129,15 @@
           <S N="isLatestVersion">True</S>
           <S N="isAbsoluteLatestVersion">True</S>
           <S N="versionDownloadCount">0</S>
-          <S N="downloadCount">491</S>
-          <S N="packageSize">31557</S>
-          <S N="published">5/8/2026 1:48:38 PM -04:00</S>
-          <S N="created">5/8/2026 1:48:38 PM -04:00</S>
-          <S N="lastUpdated">5/8/2026 1:48:38 PM -04:00</S>
-          <S N="tags">PSModule PSFunction_Read-DmarcPolicy PSCommand_Read-DmarcPolicy PSFunction_Read-MtaStsPolicy PSCommand_Read-MtaStsPolicy PSFunction_Add-MailProvider PSCommand_Add-MailProvider PSFunction_Get-MailProvider PSCommand_Get-MailProvider PSFunction_Read-DkimRecord PSCommand_Read-DkimRecord PSFunction_Read-MtaStsRecord PSCommand_Read-MtaStsRecord PSFunction_Read-MXRecord PSCommand_Read-MXRecord PSFunction_Read-NSRecord PSCommand_Read-NSRecord PSFunction_Read-SPFRecord PSCommand_Read-SPFRecord PSFunction_Read-TlsRptRecord PSCommand_Read-TlsRptRecord PSFunction_Read-WhoisRecord PSCommand_Read-WhoisRecord PSFunction_Remove-MailProvider PSCommand_Remove-MailProvider PSFunction_Resolve-DnsHttpsQuery PSCommand_Resolve-DnsHttpsQuery PSFunction_Set-DnsResolver PSCommand_Set-DnsResolver PSFunction_Test-DNSSEC PSCommand_Test-DNSSEC PSFunction_Test-HttpsCertificate PSCommand_Test-HttpsCertificate PSFunction_Test-MtaSts PSCommand_Test-MtaSts PSIncludes_Function</S>
+          <S N="downloadCount">495</S>
+          <S N="packageSize">32431</S>
+          <S N="published">5/8/2026 3:46:09 PM -04:00</S>
+          <S N="created">5/8/2026 3:46:09 PM -04:00</S>
+          <S N="lastUpdated">5/8/2026 3:46:09 PM -04:00</S>
+          <S N="tags">PSModule PSFunction_Read-DmarcPolicy PSCommand_Read-DmarcPolicy PSFunction_Read-MtaStsPolicy PSCommand_Read-MtaStsPolicy PSFunction_Add-MailProvider PSCommand_Add-MailProvider PSFunction_Get-MailProvider PSCommand_Get-MailProvider PSFunction_Read-AutoDiscoverRecord PSCommand_Read-AutoDiscoverRecord PSFunction_Read-DkimRecord PSCommand_Read-DkimRecord PSFunction_Read-MtaStsRecord PSCommand_Read-MtaStsRecord PSFunction_Read-MXRecord PSCommand_Read-MXRecord PSFunction_Read-NSRecord PSCommand_Read-NSRecord PSFunction_Read-SPFRecord PSCommand_Read-SPFRecord PSFunction_Read-TlsRptRecord PSCommand_Read-TlsRptRecord PSFunction_Read-WhoisRecord PSCommand_Read-WhoisRecord PSFunction_Remove-MailProvider PSCommand_Remove-MailProvider PSFunction_Resolve-DnsHttpsQuery PSCommand_Resolve-DnsHttpsQuery PSFunction_Set-DnsResolver PSCommand_Set-DnsResolver PSFunction_Test-DNSSEC PSCommand_Test-DNSSEC PSFunction_Test-HttpsCertificate PSCommand_Test-HttpsCertificate PSFunction_Test-MtaSts PSCommand_Test-MtaSts PSIncludes_Function</S>
           <S N="developmentDependency">False</S>
-          <S N="updated">2026-05-08T13:48:38Z</S>
-          <S N="NormalizedVersion">1.1.7</S>
+          <S N="updated">2026-05-08T15:46:09Z</S>
+          <S N="NormalizedVersion">1.1.8</S>
           <S N="Authors">John Duprey</S>
           <S N="IsPrerelease">false</S>
           <S N="ItemType">Module</S>
@@ -144,7 +146,7 @@
           <S N="PowerShellVersion">7.0</S>
         </MS>
       </Obj>
-      <S N="InstalledLocation">/Users/johnduprey/GitHub/CIPP Workspace/CIPP-API/Modules/DNSHealth/1.1.7</S>
+      <S N="InstalledLocation">/Users/johnduprey/GitHub/CIPP Workspace/CIPP-API/Modules/DNSHealth/1.1.8</S>
     </MS>
   </Obj>
 </Objs>
