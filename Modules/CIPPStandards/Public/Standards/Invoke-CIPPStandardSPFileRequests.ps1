@@ -166,7 +166,7 @@ function Invoke-CIPPStandardSPFileRequests {
             OneDriveRequestFilesLinkEnabled          = $WantedState
             CoreRequestFilesLinkExpirationInDays     = if ($null -ne $ExpirationDays -and $WantedState -eq $true) { $ExpirationDays } else { $null }
             OneDriveRequestFilesLinkExpirationInDays = if ($null -ne $ExpirationDays -and $WantedState -eq $true) { $ExpirationDays } else { $null }
-            SharingCapability                        = 'External Users and Guests (Anyone)'
+            SharingCapability                        = if ($WantedState -eq $true) { 'External Users and Guests (Anyone)' } else { $SharingCapabilityEnum[$CurrentState.SharingCapability] }
         }
         Set-CIPPStandardsCompareField -FieldName 'standards.SPFileRequests' -CurrentValue $CurrentValue -ExpectedValue $ExpectedValue -Tenant $Tenant
     }
